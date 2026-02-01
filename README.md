@@ -16,5 +16,5 @@ python3 build.py
 You can run the kernel with QEMU:
 
 ```bash
-qemu-system-i386 -kernel build/kernel.bin
+qemu-system-i386 -cdrom build/FireOS.iso
 ```
